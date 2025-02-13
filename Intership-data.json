@@ -1,0 +1,199 @@
+{
+  "clients": [
+    {
+      "client_id": "C001",
+      "client_name": "John Doe",
+      "2020": {
+        "account_balance": 5000.75,
+        "transactions": [
+          {"transaction_id": "T001", "date": "2020-01-10", "amount": -200.50, "description": "Groceries"},
+          {"transaction_id": "T002", "date": "2020-03-15", "amount": 1500.00, "description": "Salary"}
+        ]
+      },
+      "2021": {
+        "account_balance": 8000.25,
+        "transactions": [
+          {"transaction_id": "T003", "date": "2021-02-20", "amount": -100.75, "description": "Fuel"},
+          {"transaction_id": "T004", "date": "2021-05-05", "amount": 2000.00, "description": "Freelance Income"}
+        ]
+      },
+      "2022": {
+        "account_balance": 12000.50,
+        "transactions": [
+          {"transaction_id": "T005", "date": "2022-01-30", "amount": -50.00, "description": "Restaurant"},
+          {"transaction_id": "T006", "date": "2022-07-10", "amount": 2500.00, "description": "Tax Refund"}
+        ]
+      },
+      "2023": {
+        "account_balance": 15000.80,
+        "transactions": [
+          {"transaction_id": "T007", "date": "2023-03-12", "amount": -120.25, "description": "Electronics"},
+          {"transaction_id": "T008", "date": "2023-09-25", "amount": 3000.00, "description": "Bonus"}
+        ]
+      },
+      "2024": {
+        "account_balance": 18000.30,
+        "transactions": [
+          {"transaction_id": "T009", "date": "2024-01-05", "amount": -250.00, "description": "Car Maintenance"},
+          {"transaction_id": "T010", "date": "2024-11-30", "amount": 4000.00, "description": "Investment Return"}
+        ]
+      }
+    },
+    {
+      "client_id": "C002",
+      "client_name": "Alice Smith",
+      "2020": {
+        "account_balance": 3000.50,
+        "transactions": [
+          {"transaction_id": "T011", "date": "2020-02-10", "amount": -300.00, "description": "Rent"},
+          {"transaction_id": "T012", "date": "2020-04-18", "amount": 1200.00, "description": "Salary"}
+        ]
+      },
+      "2021": {
+        "account_balance": 4000.80,
+        "transactions": [
+          {"transaction_id": "T013", "date": "2021-03-22", "amount": -250.50, "description": "Utilities"},
+          {"transaction_id": "T014", "date": "2021-08-13", "amount": 1500.00, "description": "Freelance Income"}
+        ]
+      },
+      "2022": {
+        "account_balance": 6000.10,
+        "transactions": [
+          {"transaction_id": "T015", "date": "2022-02-15", "amount": -100.00, "description": "Groceries"},
+          {"transaction_id": "T016", "date": "2022-06-23", "amount": 2500.00, "description": "Tax Refund"}
+        ]
+      },
+      "2023": {
+        "account_balance": 7000.90,
+        "transactions": [
+          {"transaction_id": "T017", "date": "2023-01-30", "amount": -80.00, "description": "Coffee Shop"},
+          {"transaction_id": "T018", "date": "2023-11-01", "amount": 2000.00, "description": "Side Business Income"}
+        ]
+      },
+      "2024": {
+        "account_balance": 9000.70,
+        "transactions": [
+          {"transaction_id": "T019", "date": "2024-03-25", "amount": -150.00, "description": "Clothing"},
+          {"transaction_id": "T020", "date": "2024-10-10", "amount": 3000.00, "description": "Investment Return"}
+        ]
+      }
+    },
+    {
+      "client_id": "C003",
+      "client_name": "Bob Johnson",
+      "2020": {
+        "account_balance": 6000.00,
+        "transactions": [
+          {"transaction_id": "T021", "date": "2020-01-18", "amount": -400.00, "description": "Rent"},
+          {"transaction_id": "T022", "date": "2020-03-05", "amount": 2200.00, "description": "Salary"}
+        ]
+      },
+      "2021": {
+        "account_balance": 8000.00,
+        "transactions": [
+          {"transaction_id": "T023", "date": "2021-02-17", "amount": -180.00, "description": "Groceries"},
+          {"transaction_id": "T024", "date": "2021-06-30", "amount": 2500.00, "description": "Freelance Income"}
+        ]
+      },
+      "2022": {
+        "account_balance": 11000.00,
+        "transactions": [
+          {"transaction_id": "T025", "date": "2022-03-10", "amount": -50.00, "description": "Restaurant"},
+          {"transaction_id": "T026", "date": "2022-08-18", "amount": 3500.00, "description": "Tax Refund"}
+        ]
+      },
+      "2023": {
+        "account_balance": 13000.30,
+        "transactions": [
+          {"transaction_id": "T027", "date": "2023-01-09", "amount": -60.00, "description": "Transportation"},
+          {"transaction_id": "T028", "date": "2023-12-12", "amount": 5000.00, "description": "Bonus"}
+        ]
+      },
+      "2024": {
+        "account_balance": 16000.70,
+        "transactions": [
+          {"transaction_id": "T029", "date": "2024-04-21", "amount": -200.00, "description": "Healthcare"},
+          {"transaction_id": "T030", "date": "2024-09-17", "amount": 6000.00, "description": "Investment Return"}
+        ]
+      }
+    },
+    {
+      "client_id": "C004",
+      "client_name": "Sarah Lee",
+      "2020": {
+        "account_balance": 7000.00,
+        "transactions": [
+          {"transaction_id": "T031", "date": "2020-03-01", "amount": -350.00, "description": "Rent"},
+          {"transaction_id": "T032", "date": "2020-05-20", "amount": 1800.00, "description": "Salary"}
+        ]
+      },
+      "2021": {
+        "account_balance": 9000.30,
+        "transactions": [
+          {"transaction_id": "T033", "date": "2021-04-10", "amount": -100.00, "description": "Utilities"},
+          {"transaction_id": "T034", "date": "2021-10-05", "amount": 2500.00, "description": "Freelance Income"}
+        ]
+      },
+      "2022": {
+        "account_balance": 12000.50,
+        "transactions": [
+          {"transaction_id": "T035", "date": "2022-01-15", "amount": -200.00, "description": "Clothing"},
+          {"transaction_id": "T036", "date": "2022-07-22", "amount": 4000.00, "description": "Tax Refund"}
+        ]
+      },
+      "2023": {
+        "account_balance": 15000.80,
+        "transactions": [
+          {"transaction_id": "T037", "date": "2023-02-28", "amount": -180.00, "description": "Gym Membership"},
+          {"transaction_id": "T038", "date": "2023-11-10", "amount": 3500.00, "description": "Bonus"}
+        ]
+      },
+      "2024": {
+        "account_balance": 18000.00,
+        "transactions": [
+          {"transaction_id": "T039", "date": "2024-06-15", "amount": -250.00, "description": "Travel"},
+          {"transaction_id": "T040", "date": "2024-12-25", "amount": 5000.00, "description": "Investment Return"}
+        ]
+      }
+    },
+    {
+      "client_id": "C005",
+      "client_name": "David Green",
+      "2020": {
+        "account_balance": 8000.00,
+        "transactions": [
+          {"transaction_id": "T041", "date": "2020-01-25", "amount": -500.00, "description": "Rent"},
+          {"transaction_id": "T042", "date": "2020-03-10", "amount": 2400.00, "description": "Salary"}
+        ]
+      },
+      "2021": {
+        "account_balance": 11000.10,
+        "transactions": [
+          {"transaction_id": "T043", "date": "2021-03-05", "amount": -120.00, "description": "Groceries"},
+          {"transaction_id": "T044", "date": "2021-07-15", "amount": 3000.00, "description": "Freelance Income"}
+        ]
+      },
+      "2022": {
+        "account_balance": 14000.20,
+        "transactions": [
+          {"transaction_id": "T045", "date": "2022-04-12", "amount": -50.00, "description": "Restaurant"},
+          {"transaction_id": "T046", "date": "2022-09-20", "amount": 3500.00, "description": "Tax Refund"}
+        ]
+      },
+      "2023": {
+        "account_balance": 16000.00,
+        "transactions": [
+          {"transaction_id": "T047", "date": "2023-02-18", "amount": -130.00, "description": "Transportation"},
+          {"transaction_id": "T048", "date": "2023-10-05", "amount": 4000.00, "description": "Bonus"}
+        ]
+      },
+      "2024": {
+        "account_balance": 19000.30,
+        "transactions": [
+          {"transaction_id": "T049", "date": "2024-02-25", "amount": -220.00, "description": "Healthcare"},
+          {"transaction_id": "T050", "date": "2024-12-01", "amount": 5500.00, "description": "Investment Return"}
+        ]
+      }
+    }
+  ]
+}
