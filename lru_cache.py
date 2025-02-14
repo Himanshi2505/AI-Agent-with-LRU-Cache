@@ -46,12 +46,12 @@ class LRUCache:
             self._remove(lru)
             del self.cache[lru.key]
 
-# Example usage
-if __name__ == "__main__":  # Fixed __main__
+# Example 
+if __name__ == "__main__": 
     lru = LRUCache(3)
     lru.put(1, "data1")
     lru.put(2, "data2")
     lru.put(3, "data3")
-    print(lru.get(1))  # Returns "data1"
-    lru.put(4, "data4")  # Evicts least recently used (key 2)
-    print(lru.get(2))  # Returns None
+    print(lru.get(1))  
+    lru.put(4, "data4")  
+    print(lru.get(2))  
