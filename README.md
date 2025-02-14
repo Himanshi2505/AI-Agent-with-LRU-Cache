@@ -1,7 +1,6 @@
 
 This project implements an AI-powered agent that efficiently responds to user queries by leveraging an LRU (Least Recently Used) caching mechanism. The agent is designed to process transaction-related queries, retrieve or compute the relevant data, and store query results in a cache to ensure faster responses for repeated queries.
 
----
 ## LRU Cache Implementation
 
 The `lru_cache.py` file contains the implementation of an **LRU (Least Recently Used) Cache**, designed to store and retrieve frequently requested data efficiently. The cache evicts the least recently used item when it reaches its capacity.  
